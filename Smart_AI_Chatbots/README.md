@@ -1,4 +1,4 @@
-# 🤖 Smart AI Assistant — Final Year College Project
+# 🤖 Smart AI Assistant Chatbots NLP
 
 ## Project Overview
 A production-grade AI Chatbot using NLP and LLM (Google Gemini) that supports:
