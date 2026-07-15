@@ -1,0 +1,32 @@
+{
+  "name": "smart_ai_chatbots",
+  "version": "1.0.0",
+  "description": "A production-grade AI Chatbot using NLP and LLM (Google Gemini) that supports: - Multi-domain chat (Education, Health, Shopping, Coding) - Multilingual (Hindi + English) - Voice Input/Output (Speech-to-Text + TTS) - PDF/Document Analysis - Web Search Capability - Image Analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

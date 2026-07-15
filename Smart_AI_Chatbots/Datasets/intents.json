@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "namaste", "good morning", "good evening", "namaskar", "helo"],
+      "responses": ["Hello! Kaise hain aap? 😊", "Namaste! Kya main aapki help kar sakta hoon?", "Hi there! How can I assist you today?"],
+      "context": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye", "goodbye", "alvida", "see you", "take care", "bye bye"],
+      "responses": ["Alvida! Take care 👋", "Bye! Phir milenge.", "Have a great day! 😊"],
+      "context": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "shukriya", "dhanyawad", "bahut achha"],
+      "responses": ["You're welcome! 😊", "Koi baat nahi!", "Happy to help!"],
+      "context": ""
+    },
+    {
+      "tag": "health_general",
+      "patterns": ["headache", "fever", "cold", "cough", "body pain", "sir dard", "bukhar", "khansi", "beemar"],
+      "responses": ["Aapko doctor se milna chahiye. Agar headache hai toh rest karein aur paani piyen.", "Please consult a healthcare professional. Rest, hydration aur OTC medicines help kar sakti hain."],
+      "context": "health"
+    },
+    {
+      "tag": "health_medicine",
+      "patterns": ["medicine for fever", "paracetamol", "aspirin", "antibiotic", "dawa", "tablet"],
+      "responses": ["Main sirf general info de sakta hoon. Fever ke liye Paracetamol 500mg common hai, lekin doctor se confirm karein.", "Please consult a doctor before taking any medicine."],
+      "context": "health"
+    },
+    {
+      "tag": "education_math",
+      "patterns": ["solve this", "math problem", "calculate", "equation", "algebra", "calculus", "ganit"],
+      "responses": ["Sure! Mujhe problem batao, main step-by-step solve karta hoon.", "I'll help you solve it step by step!"],
+      "context": "education"
+    },
+    {
+      "tag": "education_science",
+      "patterns": ["explain photosynthesis", "what is gravity", "newton law", "atom", "molecule", "biology", "chemistry", "physics"],
+      "responses": ["Great question! Let me explain this clearly...", "Science ka concept samjhata hoon step by step..."],
+      "context": "education"
+    },
+    {
+      "tag": "coding_python",
+      "patterns": ["python code", "python error", "def function", "for loop", "list comprehension", "pandas", "numpy"],
+      "responses": ["Python mein yeh karte hain:", "Here's the Python code for that:"],
+      "context": "coding"
+    },
+    {
+      "tag": "coding_general",
+      "patterns": ["code help", "programming", "debug", "error in code", "how to code", "what is API", "javascript", "react"],
+      "responses": ["Let me help you with that code!", "Code ka issue dekho — most likely yeh problem hai:"],
+      "context": "coding"
+    },
+    {
+      "tag": "shopping_phone",
+      "patterns": ["best phone", "smartphone", "mobile", "iphone vs android", "best mobile under", "samsung", "oneplus"],
+      "responses": ["Aapke budget ke hisaab se best phones:", "Current best smartphones in India:"],
+      "context": "shopping"
+    },
+    {
+      "tag": "shopping_laptop",
+      "patterns": ["best laptop", "laptop under", "gaming laptop", "college laptop", "MacBook", "Dell", "HP laptop"],
+      "responses": ["College ke liye best laptops:", "Aapke use case ke liye laptop recommendations:"],
+      "context": "shopping"
+    },
+    {
+      "tag": "current_events",
+      "patterns": ["news today", "latest news", "current events", "what happened", "aaj ki khabar", "trending"],
+      "responses": ["Main current events ke baare mein general info de sakta hoon. Latest news ke liye trusted news sites check karein.", "Here's what I know about recent developments:"],
+      "context": "general"
+    },
+    {
+      "tag": "weather",
+      "patterns": ["weather today", "will it rain", "temperature", "mausam", "barish", "climate"],
+      "responses": ["Main real-time weather nahi de sakta. Please Weather app ya Google check karein.", "For accurate weather, please check your local weather app!"],
+      "context": "general"
+    },
+    {
+      "tag": "ai_nlp_concept",
+      "patterns": ["what is NLP", "what is machine learning", "explain AI", "deep learning", "neural network", "chatbot kaise banta hai"],
+      "responses": ["Great question! NLP (Natural Language Processing) ek AI field hai jo computers ko human language samjhne ki ability deta hai.", "AI/ML ke baare mein samjhata hoon:"],
+      "context": "education"
+    },
+    {
+      "tag": "essay_writing",
+      "patterns": ["write essay", "essay on", "paragraph on", "nibandh", "write about", "summarize"],
+      "responses": ["Sure! Main essay likhta hoon:", "Here's a well-structured essay:"],
+      "context": "education"
+    }
+  ],
+  "metadata": {
+    "total_intents": 15,
+    "total_patterns": 90,
+    "languages": ["English", "Hindi"],
+    "domains": ["health", "education", "coding", "shopping", "general"],
+    "version": "1.0",
+    "project": "Smart AI Assistant — Final Year College Project"
+  }
+}
